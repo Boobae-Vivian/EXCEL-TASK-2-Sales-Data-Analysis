@@ -7,15 +7,14 @@ This is an Excel task focused on analyzing a robust sales dataset comprising 700
 In the realm of sales data analysis, a pressing challenge emerges as we endeavor to derive comprehensive insights from the provided dataset. The scope of this task involves determining fundamental metrics such as:
 1. Total revenue and profit generated
 2. Average revenue and units sold for every order
-3. Total discounts given
-4. Overall number of sales recorded
-5. The highest profit generated
-6. Creating a strategic '**Sales Range**' column to return '**high**' if the sales value is above average otherwise '**low**'
-7. Average revenue from 'Paseo' sales
-8. The count of sales in the Government and Midmarket segments
-9. The total revenue from 'Montana' sales in Canada
-10. The country, segment, and month where the highest units of goods were sold
-11. The total profit specifically made in the month of December.
+3. Total discounts
+4. Total number of sales recorded and highest profit generated
+5. Creating a strategic '**Sales Range**' column to return '**high**' if the sales value is above average otherwise '**low**'
+6. Average revenue from 'Paseo' sales
+7. The count of sales in the Government and Midmarket segments
+8. The total revenue from 'Montana' sales in Canada
+9. The country, segment, and month where the highest units of goods were sold
+10. The total profit specifically made in the month of December.
 
 ## SKILLS AND CONCEPTS DEMOSTRATED
 1. Basic Functions in Excel such as:
@@ -41,5 +40,22 @@ Hence the computed results are as follows:
 ![](Revenue.png)
 
 ### 2. Average Revenue and Units Sold for Every Order
+The average revenue is determined by adding up the values in the sales column, denoted by column J, and then dividing the result by the total number of rows, which is 700. The formula applied is Average(J2:J701), resulting in an average revenue of $182,759.40.
+Likewise, the average units sold per order is calculated in a similar manner to the average revenue, utilizing the units sold column with letter E and considering the total number of rows as 700. The formula employed is Average(E2:E701), yielding an average units sold of $1,608.30.
+Hence the computed results are as follows:
+- Average revenue: $182,759.40
+- Average Units sold: $1,608.30
+
+![](Avg_Rev2.png)
+
+### 3. Total Discounts
+The total discounts offered throughout the sales period are calculated by adding up the values in the discount column, denoted by the column letter I, ranging from row numbers 2 to 701. The formula applied is SUM(I2:I701), resulting in a total discount of $9,205,248.24.
+
+![](Avg_Rev3.png)
+
+### 4. Total Number of Sales Recorded and Highest Profit Generated
+
+
+
 
 
