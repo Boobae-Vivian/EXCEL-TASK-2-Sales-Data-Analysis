@@ -5,17 +5,17 @@ This is an Excel task focused on analyzing a robust sales dataset comprising 700
 
 ## PROBLEM STATEMENT
 In the realm of sales data analysis, a pressing challenge emerges as we endeavor to derive comprehensive insights from the provided dataset. The scope of this task involves determining fundamental metrics such as:
-- Total revenue and profit generated
-- Average revenue and units sold for every order
-- Total discounts given
-- Overall number of sales recorded
-- The highest profit generated
-- Creating a strategic '**Sales Range**' column to return '**high**' if the sales value is above average otherwise '**low**'
-- Average revenue from 'Paseo' sales
-- The count of sales in the Government and Midmarket segments
-- The total revenue from 'Montana' sales in Canada
-- The country, segment, and month where the highest units of goods were sold
-- The total profit specifically made in the month of December.
+1. Total revenue and profit generated
+2. Average revenue and units sold for every order
+3. Total discounts given
+4. Overall number of sales recorded
+5. The highest profit generated
+6. Creating a strategic '**Sales Range**' column to return '**high**' if the sales value is above average otherwise '**low**'
+7. Average revenue from 'Paseo' sales
+8. The count of sales in the Government and Midmarket segments
+9. The total revenue from 'Montana' sales in Canada
+10. The country, segment, and month where the highest units of goods were sold
+11. The total profit specifically made in the month of December.
 
 ## SKILLS AND CONCEPTS DEMOSTRATED
 1. Basic Functions in Excel such as:
@@ -31,7 +31,7 @@ In the realm of sales data analysis, a pressing challenge emerges as we endeavor
 
 ## ANALYSIS, RESULTS AND DISCUSSIONS
 
-### Total Revenue and Profit Generated
+### 1. Total Revenue and Profit Generated
 The total revenue is calculated by summing the values in the sales column, represented by column letter J, spanning from row numbers 2 to 701. The formula used is SUM(J2:J701), yielding a total revenue of $127,931,598.50.
 Similarly, the total profit is determined in the same manner, utilizing the profit column as letter K and row numbers ranging from 2 to 701. The formula employed is SUM(K2:K701), resulting in a total profit of $168,937,02.3.
 Hence the computed results are as follows:
@@ -39,4 +39,7 @@ Hence the computed results are as follows:
 - Total profit: $168,937,02.3
 
 ![](Revenue.png)
+
+### 2. Average Revenue and Units Sold for Every Order
+
 
