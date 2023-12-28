@@ -77,7 +77,7 @@ To address this question, begin by establishing a new column named 'Sales Range,
 
 The calculation of the average revenue per Paseo sale involves the utilization of the AVERAGEIF function. In this context, we consider two columns: the product column, denoted as column C and spanning from 2 to 701, and the Gross-sales column, denoted as column J and ranging from 2 to 701. The function employed is AVERAGEIF(C2:C701, "Paseo", J2:J701). This function analyzes the product column, and where the product "Paseo" is identified, it computes the average based on the Gross-sales column, resulting in an average revenue per Paseo sale of $163,421.50.
 
-![]()
+![](Number7a.png)
 
 
 
