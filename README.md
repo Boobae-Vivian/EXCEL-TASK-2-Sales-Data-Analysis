@@ -1,4 +1,4 @@
-# Sales Data Analysis
+# SALES DATA ANALYSIS
 
 ## INTRODUCTION
 This is an Excel task focused on analyzing a robust sales dataset comprising 700 rows and 13 columns. Our goal is to extract key insights by addressing various questions related to total revenue, profit, and average sales metrics. Leveraging the power of data analytics, we aim to provide a detailed understanding of the extensive sales landscape, identifying patterns and deriving actionable conclusions. Throughout this exploration, we'll make sense of the sales data, assess the performance of different products and segments, and answer critical questions about high-selling regions and well-performing products in specific areas. Let's collaboratively dive into the 700 rows and 13 columns of information to uncover valuable insights about our sales performance.
