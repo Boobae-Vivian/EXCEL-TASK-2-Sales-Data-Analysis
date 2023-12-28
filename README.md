@@ -10,7 +10,7 @@ In the realm of sales data analysis, a pressing challenge emerges as we endeavor
 3. Total discounts
 4. Total number of sales recorded and Highest profit achieved
 5. Creating a'**Sales Range**' column to return '**high**' if the sales value is above average otherwise '**low**'
-6.  Average revenue from 'Paseo' sales
+6.  Average revenue Per 'Paseo' sales
 7. The count of sales in the Government and Midmarket segments
 8. The total revenue from 'Montana' sales in Canada
 9. The country, segment, and month where the highest units of goods were sold
@@ -32,6 +32,7 @@ In the realm of sales data analysis, a pressing challenge emerges as we endeavor
 ## ANALYSIS, RESULTS AND DISCUSSIONS
 
 ### 1. Total Revenue and Profit Generated
+
 The total revenue is calculated by summing the values in the Gross-sales column, represented by column letter J, spanning from row numbers 2 to 701. The function used is SUM(J2:J701), yielding a total revenue of $127,931,598.50.
 Similarly, the total profit is determined in the same manner, utilizing the profit column as letter K and row numbers ranging from 2 to 701. The function employed is SUM(K2:K701), resulting in a total profit of $168,937,02.3.
 Hence the computed results are as follows:
@@ -41,6 +42,7 @@ Hence the computed results are as follows:
 ![](Revenue.png)
 
 ### 2. Average Revenue and Units Sold for Every Order
+
 The average revenue is determined by adding up the values in the Gross-sales column, denoted by column J, and then dividing the result by the total number of rows, which is 700. The function applied is Average(J2:J701), resulting in an average revenue of $182,759.40.
 Likewise, the average units sold per order is calculated in a similar manner to the average revenue, utilizing the units sold column with letter E and considering the total number of rows as 700. The function employed is Average(E2:E701), yielding an average units sold of $1,608.30.
 Hence the computed results are as follows:
@@ -50,11 +52,13 @@ Hence the computed results are as follows:
 ![](Avg_Rev2.png)
 
 ### 3. Total Discounts
+
 The total discounts offered throughout the sales period are calculated by adding up the values in the discount column, denoted by the column letter I, ranging from row numbers 2 to 701. The function applied is SUM(I2:I701), resulting in a total discount of $9,205,248.24.
 
 ![](Avg_Rev3.png)
 
 ### 4. Total Number of Sales Recorded and Highest Profit Achieved
+
 The total number of sales recorded is established by counting the occurrences of Gross-sales, using the Gross-sales column indicated by the letter J, ranging from row 2 to 701. The function employed is COUNT(J2:J701), resulting in a total number of 700 sales recorded.
 Simultaneously, the determination of the maximum profit achieved involves applying the Max function to the profit column identified by column letter K, ranging from row numbers 2 to 701. The function used is MAX(K2:K701), yielding $262,200.00 as the highest profit generated during the sales period.
 Thus, the computed results are as follows:
@@ -64,10 +68,16 @@ Thus, the computed results are as follows:
 ![](Total_Number4.png)
 
 ### 5. Creating a '**Sales Range**' Column to Return '**High**' if the Sales Value is above Average Otherwise '**Low**'
+
 To address this question, begin by establishing a new column named 'Sales Range,' denoted by column M. Next, calculate the average sales using the sales column denoted by column H, ranging from row numbers 2 to 701. The function utilized is AVERAGE(H2:H701), yielding an average sales value of $169,609.1. Lastly, apply the IF function in cell M2 to return 'High' when H2 is greater than $169,609.1; otherwise, it should return 'Low'. Subsequently, leverage flash fill to use the function applied in cell M2 and compute results for other cells within the sales range column.
 
-![](Highlow_Sales6.png)
+![](Highlow.png)
 
+### 6. Average Revenue Per 'Paseo' Sales
+
+The calculation of the average revenue per Paseo sale involves the utilization of the AVERAGEIF function. In this context, we consider two columns: the product column, denoted as column C and spanning from 2 to 701, and the Gross-sales column, denoted as column J and ranging from 2 to 701. The function employed is AVERAGEIF(C2:C701, "Paseo", J2:J701). This function analyzes the product column, and where the product "Paseo" is identified, it computes the average based on the Gross-sales column, resulting in an average revenue per Paseo sale of $163,421.50.
+
+![]()
 
 
 
