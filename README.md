@@ -77,7 +77,32 @@ To address this question, begin by establishing a new column named 'Sales Range,
 
 The calculation of the average revenue per Paseo sale involves the utilization of the AVERAGEIF function. In this context, we consider two columns: the product column, denoted as column C and spanning from 2 to 701, and the Gross-sales column, denoted as column J and ranging from 2 to 701. The function employed is AVERAGEIF(C2:C701, "Paseo", J2:J701). This function analyzes the product column, and where the product "Paseo" is identified, it computes the average based on the Gross-sales column, resulting in an average revenue per Paseo sale of $163,421.50.
 
+![](Number6.png)
+
+### 7. The Count of Sales in the Government and Midmarket Segments
+
+The count of sales in both the government and midmarket segments is determined using the COUNTIF function. In this scenario, the segment column denoted by column A, ranging from 2 to 701, is considered. The function is applied separately for each segment, specifying "Government" and "Midmarket." The computations are as follows:
+- COUNTIF(A2:A701, "Government"), resulting to 300 sales in the government segment.
+- COUNTIF(A2:A701, "Midmarket"), resulting to 100 sales in the midmarket segment.
+ This totals to 400 sales in both the government and midmarket segments.
+
 ![](Number7a.png)
+
+### 8. The Total Revenue from 'Montana' Sales in Canada
+
+To calculate the total revenue from Montana sales in Canada, the SUMIFS function is employed, considering two conditions: a specific product sold in a particular country. The relevant columns are the Product column denoted as C, the Country column denoted as B, and the Gross-sales column denoted as J, all spanning from row number 2 to 701.
+The applied function is SUMIFS(J2:J701, B2:B701, "Canada", C2:C701, "Montana"). In this function, J2:J701 is the sum range, B2:B701 is the first criteria range where "Canada" is located, and C2:C701 is the second criteria range where "Montana" is located. This yields the result of the total revenue from Montana sales in Canada as $2,711,919.03.
+
+![](Number8a.png)
+
+### 9. The country, segment, and month where the highest units of goods were sold
+
+
+
+
+
+
+
 
 
 
