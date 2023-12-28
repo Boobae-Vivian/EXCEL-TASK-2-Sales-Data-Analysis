@@ -97,6 +97,30 @@ The applied function is SUMIFS(J2:J701, B2:B701, "Canada", C2:C701, "Montana"). 
 
 ### 9. The country, segment, and month where the highest units of goods were sold
 
+To determine the country, segment, and month where the highest units of goods were sold, we will calculate them individually using the VLOOKUP function. VLOOKUP searches for a value in the leftmost column and returns a related value from a specified column. It's essential to arrange the corresponding columns for country, segment, and months in front of the lookup column where the lookup value is found.
+
+The VLOOKUP syntax involves four arguments and is written as =VLOOKUP(Lookup-value, table-array, column-index-number, range-lookup). Here, the lookup value is the highest units sold (4492.5), the table-array is the range of cells from the corresponding column down to the lookup column, the column-index-number is the number of the column where the corresponding value is found within the table array, and the range-lookup is set to false by default, meaning it should return false if the exact value we are looking up is not found.
+
+The function is applied as follows to determine the country, segment, and month with the highest units of goods sold, respectively:
+- Country: =VLOOKUP(4492.5, A2:C701, 3, False), resulting as the United States of America.
+- Segment: =VLOOKUP(4492.5, A2:B701, 2, False), resulting as Government.
+- Month: =VLOOKUP(4492.5, A2:D701, 4, False), resulting as April.
+
+Therefore, the country in the government segment with the highest units of goods sold in the month of April is the United States of America.
+
+![](Number9aa.png)
+
+### 10. The Total Profit Specifically Made in the Month of December
+
+To calculate the total profit made in the month of December, we will use the SUMIF function, considering the month column denoted as column D and the profit column denoted as column K, both ranging from row number 2 to 701. The applied function is: =SUMIF(D2:D701, "December", K2:K701). This function examines the month column and, wherever "December" is found, it sums up the corresponding profits, resulting in a total profit made in the month of December as: $2,717,330.00.
+
+![](Number10aa.png)
+
+
+
+
+
+
 
 
 
